@@ -19,7 +19,7 @@
             .then(data => {
                 
                 if (data) {
-                    $("#bookDetailModal .model-content").html(data);
+                    $("#bookDetailModal .modal-content").html(data);
                     $("#bookDetailModal").modal("show");
                     
                 }
